@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+max-height: 100vh;
+padding-top: 100px ;
+
+}
+.container{
+  
+align-items: center;
+padding: 20px;
+background-color: chocolate;
+border-radius: 10px;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+width: 400px;
+height: 400px;
+}
+header{
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
+label{
+color:white;
+padding-bottom: 20px;
+font-size: medium;
+font-weight: 400;
+ margin-bottom:20px;
+}
+input{
+    width:100%;
+    height:40px;
+    margin-bottom:20px;
+    padding:20px 10px;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    color: chocolate;
+    font-weight: 600;
+   
+    width: 100%;
+
+}
+p{
+    padding-top:20px;
+    color:white;
+    font-weight:600;
+
+
+}
