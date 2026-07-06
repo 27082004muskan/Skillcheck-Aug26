@@ -1,0 +1,176 @@
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    background:#f2f2f2;
+}
+
+/* Card */
+
+.container{
+
+    width:350px;
+
+    background:#ff4da6;
+
+    text-align:center;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+/* Heading */
+
+header h1{
+
+    color:white;
+
+    margin-bottom:20px;
+}
+
+/* Image */
+
+img{
+
+    width:150px;
+
+    height:150px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+}
+
+img:hover{
+
+    transform:scale(1.05);
+}
+
+/* Text */
+
+h2{
+
+    margin-bottom:5px;
+}
+
+h3{
+
+    color:#444;
+
+    margin-bottom:15px;
+
+    font-weight:500;
+}
+
+.bio{
+
+    margin-bottom:20px;
+
+    line-height:1.5;
+}
+
+/* Skills */
+
+.skills{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:25px;
+}
+
+.skills span{
+
+    background:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+}
+
+/* Buttons */
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    margin-bottom:20px;
+}
+
+button{
+
+    border:none;
+
+    background:#222;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:white;
+
+    color:black;
+
+    transform:translateY(-3px);
+}
+
+/* Social Icons */
+
+.links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.links a{
+
+    text-decoration:none;
+
+    font-size:25px;
+
+    transition:.3s;
+}
+
+.links a:hover{
+
+    transform:scale(1.3);
+}
