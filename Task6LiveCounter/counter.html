@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: rgb(96, 96, 197);
+    color: aliceblue;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+   border-radius: 10px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    padding: 20px;
+
+}
+label ,p{
+  
+    font-size:20px;
+
+}
+input{
+    margin-top:20px;
+    width: 360px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <header><h1>Character Counter</h1></header>
+   
+    <label for="text" >Type something...</label>
+    <input type="text" id="text">
+    <p> Total Characters:</p>
+
+    <p id="result"></p>
+  </div>
+
+<script src="counter.js"></script>
+</body>
+</html>
